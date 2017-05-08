@@ -13,7 +13,7 @@
   export default {
     data () {
       return {
-        url: 'https://hn-ttv.firebaseapp.io'
+        url: 'https://hn-ttv.firebaseapp.com'
       }
     }
   }

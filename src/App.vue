@@ -3,7 +3,7 @@
     <ttv-header />
     <ttv-error v-if="error" :error="error" />
     <ul class="story-list">
-      <ttv-story :story="story" v-for="story in stories" />
+      <ttv-story :key="story.id" :story="story" v-for="story in stories" />
     </ul>
     <ttv-footer />
   </section>
