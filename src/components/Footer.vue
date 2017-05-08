@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <section class="footer__top">
-      Created by
+      Source at
     </section>
     <section class="footer__bottom">
       <a :href="url" target="_blank" rel="noopener noreferrer">
@@ -14,7 +14,7 @@
   export default {
     data () {
       return {
-        url: 'https://tanelih.github.io/'
+        url: 'https://github.com/tanelih/hn-ttv'
       }
     }
   }
