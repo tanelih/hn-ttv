@@ -39,8 +39,8 @@
     }
 
     &:nth-child(2) {
-      color: $ttv-cyan;
-      transform: scaleY(0.70);
+      color:      $ttv-cyan;
+      transform:  scaleY(0.70);
       margin-top: -0.25rem;
     }
   }

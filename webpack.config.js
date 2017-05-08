@@ -4,9 +4,9 @@ const webpack = require('webpack')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
-    filename: 'build.js',
+    path: path.resolve(__dirname, './public'),
+    publicPath: '/public/',
+    filename: 'app.bundle.js',
   },
   module: {
     rules: [
@@ -67,5 +67,9 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.LoaderOptionsPlugin({
       minimize: true,
     }),
+    new require('copy-webpack-plugin')([
+      { from: 'index.html' }
+    ])
   ])
 }
+

@@ -1,4 +1,4 @@
-# ttv
+# hn-ttv
 
-Simple "teksti-tv" lookalike front for stuffs.
+Simple "Teksti TV" lookalike front for [](https://news.ycombinator.com/).
 
